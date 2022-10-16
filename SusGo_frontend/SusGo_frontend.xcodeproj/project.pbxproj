@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3644E21428FB7A5F000BFDD1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644E21328FB7A5F000BFDD1 /* CollectionViewCell.swift */; };
 		36827EBC28FA60CE00C31EF7 /* SusGo_frontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36827EBB28FA60CE00C31EF7 /* SusGo_frontendApp.swift */; };
 		36827EBE28FA60CE00C31EF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36827EBD28FA60CE00C31EF7 /* ContentView.swift */; };
 		36827EC028FA60D100C31EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36827EBF28FA60D100C31EF7 /* Assets.xcassets */; };
 		36827EC328FA60D100C31EF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36827EC228FA60D100C31EF7 /* Preview Assets.xcassets */; };
+		36827ED428FB654E00C31EF7 /* BingoBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36827ED328FB654E00C31EF7 /* BingoBoardView.swift */; };
+		36827ED628FB66DB00C31EF7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36827ED528FB66DB00C31EF7 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3644E21328FB7A5F000BFDD1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		36827EB828FA60CE00C31EF7 /* SusGo_frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SusGo_frontend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36827EBB28FA60CE00C31EF7 /* SusGo_frontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SusGo_frontendApp.swift; sourceTree = "<group>"; };
 		36827EBD28FA60CE00C31EF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36827EBF28FA60D100C31EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36827EC228FA60D100C31EF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36827ED328FB654E00C31EF7 /* BingoBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoBoardView.swift; sourceTree = "<group>"; };
+		36827ED528FB66DB00C31EF7 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				36827EBB28FA60CE00C31EF7 /* SusGo_frontendApp.swift */,
 				36827EBD28FA60CE00C31EF7 /* ContentView.swift */,
+				36827ED328FB654E00C31EF7 /* BingoBoardView.swift */,
+				3644E21328FB7A5F000BFDD1 /* CollectionViewCell.swift */,
+				36827ED528FB66DB00C31EF7 /* Profile.swift */,
 				36827EBF28FA60D100C31EF7 /* Assets.xcassets */,
 				36827EC128FA60D100C31EF7 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3644E21428FB7A5F000BFDD1 /* CollectionViewCell.swift in Sources */,
 				36827EBE28FA60CE00C31EF7 /* ContentView.swift in Sources */,
+				36827ED628FB66DB00C31EF7 /* Profile.swift in Sources */,
+				36827ED428FB654E00C31EF7 /* BingoBoardView.swift in Sources */,
 				36827EBC28FA60CE00C31EF7 /* SusGo_frontendApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

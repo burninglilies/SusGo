@@ -10,7 +10,8 @@ struct ContentView: View {
 
     var body: some View {
         ZStack{
-            Image("background").resizable().frame(width: 375.0, height: 700.0).scaledToFit()
+            Image("background").resizable().frame(maxWidth: .infinity, maxHeight: .infinity).scaledToFill()
+                .background(.black)
             
             VStack{
                 
